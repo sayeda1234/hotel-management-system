@@ -20,13 +20,12 @@ const PORT = process.env.PORT || 5000;
 // Middleware
 const cors = require("cors");
 
+const cors = require("cors");
+
 app.use(cors({
-  origin: [
-    "https://hotel-management-system-6dmdr9b3f.vercel.app"
-  ],
+  origin: "*",   // 🔥 allow all origins (simplest fix)
   methods: ["GET", "POST", "PUT", "DELETE"],
   allowedHeaders: ["Content-Type", "Authorization"],
-  credentials: true
 }));
 app.use(express.json());
 
