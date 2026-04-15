@@ -1,0 +1,92 @@
+.staff-container {
+  width: 100%;
+}
+
+/* TITLE */
+.staff-container h2 {
+  font-size: 28px;
+}
+
+.subtitle {
+  color: gray;
+  margin-bottom: 20px;
+}
+
+/* GRID */
+.staff-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+/* CARD */
+.staff-card {
+  background: white;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.staff-card:hover {
+  transform: translateY(-5px);
+}
+
+/* HEADER */
+.staff-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* AVATAR */
+.avatar {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: #0b3b6b;
+  color: gold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+/* INFO */
+.info {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.info h3 {
+  margin: 0;
+}
+
+.role {
+  font-size: 12px;
+  background: #e5e7eb;
+  padding: 4px 8px;
+  border-radius: 10px;
+}
+
+/* STATUS */
+.status {
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.status.active {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+/* DETAILS */
+.details {
+  margin-top: 15px;
+}
+
+.details p {
+  margin: 5px 0;
+  color: #374151;
+}

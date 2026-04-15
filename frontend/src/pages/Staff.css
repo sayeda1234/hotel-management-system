@@ -1,0 +1,37 @@
+.staff-container {
+  padding: 30px;
+}
+
+.staff-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.staff-container th {
+  background: #003366;
+  color: white;
+  padding: 12px;
+}
+
+.staff-container td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.staff-container button {
+  margin-right: 8px;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.staff-container button:first-child {
+  background: orange;
+  color: white;
+}
+
+.staff-container button:last-child {
+  background: green;
+  color: white;
+}

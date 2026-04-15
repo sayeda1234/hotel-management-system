@@ -1,0 +1,66 @@
+.admin-container {
+  width: 100%;
+}
+
+/* REMOVE CENTER BOX */
+.table-container {
+  width: 100%;            /* 🔥 IMPORTANT */
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* TABLE FULL WIDTH */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* HEADER */
+thead {
+  background: #0b3b6b;
+  color: white;
+}
+
+th, td {
+  padding: 14px;
+  text-align: center;
+}
+
+/* ROW STYLING */
+tbody tr:nth-child(even) {
+  background: #f3f4f6;
+}
+
+/* DELETE BUTTON */
+.delete-btn {
+  background: #ef4444;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background: #dc2626;
+}
+.admin-title{
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 26px;
+  font-weight: bold;
+}
+select {
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.admin-title {
+  text-align: center;
+  margin-bottom: 20px;
+}

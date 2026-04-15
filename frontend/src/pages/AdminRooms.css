@@ -1,0 +1,112 @@
+.rooms-page {
+  width: 100%;
+}
+
+/* HEADER */
+.rooms-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.rooms-header h2 {
+  font-size: 28px;
+}
+
+.rooms-header p {
+  color: gray;
+}
+
+/* SEARCH */
+.search {
+  padding: 10px 15px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  width: 220px;
+}
+
+/* FILTER BUTTONS */
+.filters {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.filters button {
+  padding: 8px 14px;
+  border-radius: 20px;
+  border: none;
+  background: #e5e7eb;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.filters button:hover {
+  background: #f59e0b;
+  color: white;
+}
+
+/* GRID (MAIN FIX) */
+.room-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+/* CARD */
+.room-card {
+  background: white;
+  padding: 18px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.room-card:hover {
+  transform: translateY(-5px);
+}
+
+/* HEADER INSIDE CARD */
+.room-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.floor {
+  color: gray;
+  margin: 8px 0;
+}
+
+.details p {
+  margin: 5px 0;
+}
+
+.rate {
+  color: #f59e0b;
+  font-weight: bold;
+}
+
+/* STATUS BADGES */
+.status {
+  padding: 5px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  text-transform: capitalize;
+}
+
+.status.available {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.status.occupied {
+  background: #dbeafe;
+  color: #1e40af;
+}
+
+.status.reserved {
+  background: #fef3c7;
+  color: #92400e;
+}

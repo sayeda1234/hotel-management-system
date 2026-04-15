@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f0f2f5; /* light neutral background */
+  height: 100vh;
+}
+
+.register-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-card {
+  position: relative;
+  width: 420px;
+  padding: 45px;
+  border-radius: 20px;
+  background: #ffffff; /* solid white background */
+  text-align: center;
+  color: #333333; /* dark text for readability */
+  z-index: 2;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2); /* subtle shadow */
+}
+
+.register-card h2 {
+  font-size: 28px;
+  margin-bottom: 8px;
+  color: #111111;
+}
+
+.subtitle {
+  font-size: 14px;
+  margin-bottom: 30px;
+  color: #555555;
+}
+
+.register-card input {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 18px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  background: #f9f9f9;
+  font-size: 14px;
+}
+
+.register-card button {
+  width: 100%;
+  padding: 14px;
+  border-radius: 8px;
+  border: none;
+  background-color: green;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.register-card button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 15px rgba(0, 128, 0, 0.4);
+}
+
+.bottom-text {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #555555;
+}
+
+.bottom-text span {
+  color: green;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.bottom-text span:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,63 @@
+.mybookings-page {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #0d3b66;
+}
+
+.empty {
+  text-align: center;
+  color: gray;
+}
+
+.booking-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.booking-card {
+  display: flex;
+  gap: 20px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  align-items: center;
+}
+
+.room-img {
+  width: 180px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.booking-details h3 {
+  margin: 0 0 10px;
+  color: #0d3b66;
+}
+
+.booking-details p {
+  margin: 4px 0;
+  color: #444;
+}
+
+.cancel-btn {
+  margin-top: 12px;
+  padding: 8px 14px;
+  background: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cancel-btn:hover {
+  background: #b02a37;
+}
