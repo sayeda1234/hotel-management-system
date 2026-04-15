@@ -4,10 +4,7 @@ const bcrypt = require("bcryptjs");
 // Adjust path if your model is in another folder
 const User = require("./models/userModel");
 
-mongoose.connect("mongodb://localhost:27017/hotelDB", {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
+mongoose.connect(process.env.MONGO_URI);
 
 const hashPassword = async () => {
   try {

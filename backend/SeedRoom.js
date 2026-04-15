@@ -1,10 +1,7 @@
 const mongoose = require('mongoose');
 const Room = require('./models/Room');
 
-mongoose.connect('mongodb://localhost:27017/hotel', {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
+mongoose.connect(process.env.MONGO_URI);
 
 const sampleRooms = [
   {

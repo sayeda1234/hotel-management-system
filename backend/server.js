@@ -18,9 +18,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // Middleware
-const cors = require("cors");
 
-const cors = require("cors");
 
 app.use(cors({
   origin: "*",   // 🔥 allow all origins (simplest fix)
