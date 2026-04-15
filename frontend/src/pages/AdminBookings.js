@@ -58,7 +58,7 @@ const AdminBookings = () => {
 
     try {
       await axios.put(
-        `https://hotel-management-system-e9sm.onrender.com/api/admin/assign-staff/${bookingId}`,
+        ` https://hotel-management-system-8vbt.onrender.com/api/admin/assign-staff/${bookingId}`,
         { staffId },
         {
           headers: { Authorization: `Bearer ${token}` }

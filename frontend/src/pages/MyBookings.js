@@ -18,7 +18,7 @@ const MyBookings = () => {
       }
 
       try {
-        const res = await axios.get('https://hotel-management-system-e9sm.onrender.com/api/bookings/my', {
+        const res = await axios.get(' https://hotel-management-system-8vbt.onrender.com/api/bookings/my', {
           headers: { Authorization: `Bearer ${token}` }
         });
         setBookings(res.data);
@@ -39,7 +39,7 @@ const MyBookings = () => {
       return;
 
     try {
-      await axios.delete(`https://hotel-management-system-e9sm.onrender.com/api/bookings/${bookingId}`, {
+      await axios.delete(` https://hotel-management-system-8vbt.onrender.com/api/bookings/${bookingId}`, {
         headers: { Authorization: `Bearer ${token}` }
       });
 

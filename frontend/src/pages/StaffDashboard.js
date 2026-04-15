@@ -9,7 +9,7 @@ useEffect(() => {
     try {
       const token = localStorage.getItem("token");   // ✅ ADD THIS
 
-      const res = await axios.get("https://hotel-management-system-e9sm.onrender.com/api/staff/tasks", {
+      const res = await axios.get(" https://hotel-management-system-8vbt.onrender.com/api/staff/tasks", {
         headers: {
           Authorization: `Bearer ${token}`
         }
@@ -30,7 +30,7 @@ useEffect(() => {
 
   try {
     await axios.put(
-      `https://hotel-management-system-e9sm.onrender.com/api/staff/room-status/${id}`,
+      ` https://hotel-management-system-8vbt.onrender.com/api/staff/room-status/${id}`,
       { status },
       {
         headers: {

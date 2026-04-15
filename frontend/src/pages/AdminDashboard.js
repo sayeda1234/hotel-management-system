@@ -16,7 +16,7 @@ const AdminDashboard = () => {
   useEffect(() => {
     const fetchStats = async () => {
       try {
-        const res = await axios.get("https://hotel-management-system-e9sm.onrender.com/api/admin/stats");
+        const res = await axios.get(" https://hotel-management-system-8vbt.onrender.com/api/admin/stats");
         setStats(res.data);
       } catch (err) {
         console.error(err);
