@@ -22,8 +22,10 @@ const Register = () => {
       await axios.post("  https://hotel-management-system-8vbt.onrender.com/api/users/register", formData);
       navigate("/login");
     } catch (err) {
-      alert("Registration failed");
-    }
+  console.log("ERROR:", err.response);
+
+  alert(err.response?.data?.message || "Registration failed");
+}
   };
 
   return (
